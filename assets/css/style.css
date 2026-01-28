@@ -1,0 +1,24 @@
+:root {
+  --primary: #7b6cff;
+  --bg: #f6f7fb;
+  --card-bg: #ffffff;
+  --text-dark: #2c2c2c;
+  --text-muted: #8b8b8b;
+}
+
+body {
+  background: var(--bg);
+  direction: rtl;
+  font-family: sans-serif;
+}
+
+.day {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.day.active {
+  background: var(--primary);
+  color: #fff;
+}
